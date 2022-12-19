@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+.item_info a{
+    text-decoration: none;
+}
+/* header */
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    background-color: #D6E4E5;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    padding: 30px;
+}
+.hero-section_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-content: flex-start;
+}
+.hero-section_info h1 {
+    font-size: 34px;
+    text-transform: capitalize;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+.hero-section_info p {
+    font-size: 20px;
+    text-transform: lowercase;
+    font-weight: 400;
+
+}
+.hero-section_info .btn {
+    background-color: transparent;
+    border: 1px solid #497174;
+    border-radius: 25px;
+    display: inline-flex;
+    font-size: 14px;
+    flex-direction: row;
+    width: 49%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-section_img img {
+    position: absolute;
+    right: 0;
+    bottom: 41px;
+    width: 468px;
+}
+
+/* about us */
+
+.carousel-item {
+    width: 400px;
+    height: 400px;
+}
+.carousel-item img {
+    width: 100%;
+}
+.content h2 , .content p {
+    text-align:left;
+    width: 90%;
+}
+.carousel-inner {
+    width: 100%;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* nav */
+.nav-link {
+    padding: 10px 10px !important ;
+    font-size: 17px;
+    position:relative;
+}
+.nav-link::after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    transition: width 0.5s;
+    background-color: #ff724c;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.nav-link.active::after{
+    width: 100%;
+}
+
+
+
+
+/* 139x93 */
+/* projects */
+.item_image {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.item_image img {
+    width: 100%;
+}
+.projects  {
+    background-color: #D6E4E5;
+}
+.content h2 {
+    color: #0e132a;
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Teko",sans-serif;
+}
+.content p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #0b0b2b;
+}
+.pro-content h2 , .team-content h2 {
+    color: #0e132a;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Teko",sans-serif;
+}
+
+
+.item_info h3 {
+    padding: 20px;
+    color: #0e132a;
+    font-size: 25px;
+    font-family: 'Barlow',sans-serif;
+}
+.item_info h3:hover{
+    color: white;
+    background-color: #0b0b2b !important;
+}
+/* services */
+.services-blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.section-block {
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+/* contact-us */
+.contact-us {
+    background-color:#D6E4E5;
+}
+
+.address span {
+    font-family: 'Poppins',sans-serif !important;
+}
+.fa-inbox {
+    margin-top: 10px;
+}
+
+.icon1 , .icon2 {
+    margin-left: 10px;
+    transition: transform 0.5s ,background-color 0.5s , color 0.5s;
+}
+.icon1 {
+    padding: 8px 11px;
+    text-align: center;
+    color: #3b5999;
+    border: 1px solid #3b5999;
+    
+}
+.icon1:hover{
+    transform: rotate(360deg);
+    background-color: #3b5999;
+    color: white;
+}
+.icon2{
+    padding: 8px;
+    color: #ea4c89;
+    border: 1px solid #ea4c89;
+}
+.icon2:hover{
+    transform: rotate(360deg);
+    background-color: #ea4c89;
+    color: white;
+}
+/* cards */
+.cardcenter {
+    display: flex;
+    justify-content: center;
+    
+}
+.cardtop {
+    margin-right: 20px;
+   
+}
+.h2 {
+    color: #0e132a;
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Teko",sans-serif;
+}
+
+
+

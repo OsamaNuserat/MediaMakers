@@ -1,0 +1,34 @@
+@media (max-width:768px)
+{
+    .content h2{
+        font-size:60px;
+    }
+    .hero-section_img img{
+        display: none;
+    }
+}
+
+@media (max-width:576px)
+{
+    .content h2{
+        font-size:50px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .fa-solid , .address h3 {
+        font-size: 13px;
+    } 
+    .contact-info i {
+        font-size:14px;
+    }
+    .pro-content h2 {
+        font-size: 50px;
+    }
+    
+}
+@media (max-width:340px) {
+    .h2 {
+        font-size: 50px;
+    }
+}
